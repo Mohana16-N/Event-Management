@@ -26,3 +26,34 @@ Before running the application, ensure you have the following installed:
    ```bash
    git clone https://github.com/Mohana16-N/Event-Management.git
    cd Event-Management
+
+
+
+## Configure the database:
+
+**Create a MySQL database named event_management**.
+
+Update the database configuration in src/main/resources/application.properties:
+
+**properties** : 
+spring.datasource.url=jdbc:mysql://localhost:3306/event_management
+spring.datasource.username=your_mysql_username
+spring.datasource.password=your_mysql_password
+
+
+## Build the application:
+mvn clean install
+
+## Run the application:
+mvn spring-boot:run
+The application will start on http://localhost:8080.
+
+## Usage
+Access the application at http://localhost:8080.
+Navigate through the interface to explore features such as event management, user registrations, and feedback collection.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries or support, please contact [gagankotian890@gmail.com, mohanan16122003@gmail.com ](mailto:gagankotian890@gmail.com).
