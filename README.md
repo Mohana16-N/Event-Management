@@ -39,9 +39,10 @@ spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 
 
-Build the application:
+## Build the application:
 ```bash
 mvn clean install
+
 
 ## Run the application:
 ```bash
