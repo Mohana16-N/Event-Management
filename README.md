@@ -33,16 +33,13 @@ Before running the application, ensure you have the following installed:
 
 Update the database configuration in src/main/resources/application.properties:
 
-**properties** : 
-```bash
+```properties 
 spring.datasource.url=jdbc:mysql://localhost:3306/event_management
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 
 
-
-## Configure the database:
- ## Build the application:
+Build the application:
 ```bash
 mvn clean install
 
