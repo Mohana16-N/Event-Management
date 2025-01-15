@@ -1,5 +1,3 @@
-# Event-Management
-
 # Event Management Application
 
 This is a Spring Boot-based Event Management application designed to simplify the organization and management of events. It includes robust features for managing feedback, user registrations, and event administration.
@@ -42,7 +40,9 @@ spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 
 
-## Build the application:
+
+## Configure the database:
+ ## Build the application:
 ```bash
 mvn clean install
 
